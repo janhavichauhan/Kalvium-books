@@ -1,0 +1,81 @@
+
+
+.Books{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 6%;
+}
+
+.Book:hover {
+    transform: scale(1.05);
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.3); 
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    background-color:rgba(192, 153, 250, 0.573);
+}
+
+.description {
+    display: none;
+}
+.Book {
+   background-color: pink;
+   height: 450px;
+   border-radius: 20px;
+   border: 2px solid black;
+}
+h3{
+    text-align: center;
+    color:black;
+}
+
+.author{
+  text-align: center;
+  font-weight: 600;
+}
+
+.ratings{
+  text-align: center;
+  font-weight: 500;
+  font-family:poppins;
+}
+
+.publisher{
+  text-align: center;
+  font-family: Arial;
+  font-weight: 500;
+}
+.pageCount{
+  text-align: center;
+  font-family: Arial;
+  font-weight: 500;
+}
+
+.language{
+  text-align: center;
+  font-family: Arial;
+  font-weight: 500;
+}
+
+.categories{
+  text-align: center;
+  font-family: Arial;
+  font-weight: 500;
+}
+
+img{
+    align-items: center;
+    margin-left: 23%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 4px solid black;
+}
+
+
+  img:hover {
+    transform: scale(1.1);
+  }
